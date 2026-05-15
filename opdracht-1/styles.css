@@ -1,3 +1,19 @@
+/*//////////////////////////////
+        Table of Contents
+        1. Global Styles
+        2. Typography
+        3. Areas
+            3.1 Navbar
+            3.2 Navbar-two
+            3.3 Navbar-three
+            3.4 Navbar-four
+            3.5 Navbar-five
+//////////////////////////// */
+/* ------------------------------- 1. Global Styles --------------------------- */
+/* ------------------------------- 2. Typography ----------------------------- */
+/* ------------------------------- 3. Areas ---------------------------------- */
+
+/* ---------------------- 3.1 Navbar -------------------------- */
 .navbar{
     display: flex;
     flex-direction: row;
@@ -5,6 +21,7 @@
     list-style: none;
 }
 
+/* ---------------------- 3.2 Navbar Two ----------------------- */
 .navbar-two {
     display: flex;
     flex-direction: row;
@@ -18,6 +35,7 @@
 }
 
 
+/* ---------------------- 3.3 Navbar Three --------------------- */
 .navbar-three{
     display: flex;
     flex-direction: row;
@@ -30,40 +48,58 @@
     list-style: none;
 }
 
+
+/* ---------------------- 3.4 Navbar Four ------------------------ */
 .navbar-four {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.navbar-four-wrapper{
+.navbar-four-wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+}
+
+.navbar-four-logo {
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+}
+
+
+
+
+.navbar-four-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .navbar-four ul {
     display: flex;
-    flex-direction: row;
-    list-style: none ;
-    gap: 20px;
+    list-style: none;
+    column-gap: 16px;
 }
 
-.navbar-four ul li a {
-    display: flex;
-    flex-direction: row;
-}
 
+/* ---------------------- 3.2 Navbar Five ----------------------- */
 .navbar-five {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
+.navbar-five-logo {
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+}
+
 .navbar-five ul {
     display: flex;
     flex-direction: row;
+    align-items: center;
     list-style: none;
     gap: 20px;
-
 }
