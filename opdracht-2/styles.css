@@ -27,21 +27,60 @@
 .sidebar ul {
     list-style: none;
 }
+.sidebar-nav-menu{
+    display: flex;
+    flex-direction: column;
+}
 
+.sidebar-nav-item a{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+
+}
+
+.sidebar-icon {
+    width: 1rem;
+    height: 1rem;
+
+}
 .sidebar-nav{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 100vh;
+    min-height: 100%;
     width: 350px;
     list-style: none;
+}
+
+.sidebar-nav-main{
+    padding: 10px;
+}
+
+.sidebar-nav-main ul li{
+    padding: 10px;
+}
+
+.sidebar-nav-footer button{
+    width: 100%;
+}
+.sidebar-nav-footer li {
+    padding: 5px;
 }
 
 .sidebar-logo {
     display: flex;
     column-gap: 16px;
     align-items: center;
+    padding-bottom: 40px;
 }
+/*.sidebar-nav-menu li {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    column-gap: 16px;*/
+/*    padding: 10px;*/
+
+/*}*/
 
 .sidebar-nav-footer {
 
@@ -68,7 +107,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 150px;
+    padding: 135px;
     /*border: 2px solid deeppink;*/
 
 }
@@ -84,12 +123,31 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    row-gap: 20px;
+    padding: 40px 0;
 }
 
 .advertisement-article{
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 260px;
+}
+
+.advertisement-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ .advertisement-icon{
+    width: 16px;
+}
+.advertisement-article h3 {
+    padding: 10px 0;
+    font-weight: 600;
+}
+.advertisement-article p {
+    padding: 10px 0;
 }
 /* ---------------------- 3.1 Footer -------------------------- */
 
