@@ -1,0 +1,70 @@
+/*//////////////////////////////
+        Table of Contents
+        1. Global Styles
+        2. Typography
+        3. Areas
+            3.1 Sidebar Menu
+            3.2 Header
+            3.3 Main
+            3.4 Footer
+//////////////////////////// */
+/* ------------------------------- 1. Global Styles --------------------------- */
+/* ------------------------------- 2. Typography ----------------------------- */
+/* ------------------------------- 3. Areas ---------------------------------- */
+
+/*
+
+* ---------------------- 3.1 Sidebar Menu -------------------------- */
+.sidebar-menu {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid yellow;
+    min-height: 100vh;
+}
+
+.sidebar-menu ul {
+    list-style: none;
+}
+/*----------------------- page wrapper--*/
+.testing {
+    display: flex;
+    flex-direction: row;
+
+    /*flex-basis: 100vh;*/
+
+    /*border: 2px solid green;*/
+}
+/*------------------------------content-wrapper*/
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    /*flex-grow: 1;*/
+}
+
+/* ---------------------- 3.2 Header -------------------------- */
+.header-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center ;
+    background-image: url("/assets/placeholder-image.svg");
+    background-size: cover;
+    border: 2px solid deeppink;
+
+}
+/* ---------------------- 3.3 Main -------------------------- */
+main {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+}
+/* ---------------------- 3.1 Footer -------------------------- */
+
+.footer {
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    background-color: #383838;
+    color: white;
+    text-align: center;
+}
