@@ -9,9 +9,9 @@
             3.4 Footer
 //////////////////////////// */
 /* ------------------------------- 1. Global Styles --------------------------- */
-    img {
-        width: 100%;
-    }
+/*    img {*/
+/*        width: 100%;*/
+/*    }*/
 /* ------------------------------- 2. Typography ----------------------------- */
 /* ------------------------------- 3. Areas ---------------------------------- */
 
@@ -77,6 +77,13 @@ main {
     display: flex;
     flex-direction: column;
     /*border: 2px solid red;*/
+}
+
+.advertisement-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .advertisement-article{
