@@ -34,12 +34,16 @@
     list-style: none;
 }
 
-
 /* ---------------------- 3.3 Navbar Three --------------------- */
-.navbar-three{
+.navbar-three {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.navbar-three-logo{
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
 }
 
 .navbar-three ul {
@@ -47,7 +51,6 @@
     flex-direction: row;
     list-style: none;
 }
-
 
 /* ---------------------- 3.4 Navbar Four ------------------------ */
 .navbar-four {
